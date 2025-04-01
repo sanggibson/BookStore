@@ -1,16 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Image } from "expo-image";
+import { Link } from "expo-router";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Editioehjio.</Text>
-      <Image
-        source={{
-          uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTyauZdL071lzLmrzEoOZgmS9vbQWvfxYddQ&s",
-        }}
-        
-      />
+      <Link href={"/(auth)/signup"}>Sign Up</Link>
+      <Link href={"/(auth)"}>Login</Link>
     </View>
   );
 }

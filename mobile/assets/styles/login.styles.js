@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: COLORS.cardBackground,
-    borderRadius: 16,
+    borderRadius: 20,
     padding: 24,
     shadowColor: COLORS.black,
     shadowOffset: { width: 0, height: 2 },
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: COLORS.inputBackground,
-    borderRadius: 12,
+    borderRadius: 50,
     borderWidth: 1,
     borderColor: COLORS.border,
     paddingHorizontal: 12,
