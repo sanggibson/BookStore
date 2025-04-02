@@ -70,7 +70,7 @@ export default function Login() {
 
                 <TextInput
                   style={styles.input}
-                  placeholder="Enter your password"
+                  placeholder="*******"
                   placeholderTextColor={COLORS.placeholderText}
                   value={password}
                   onChangeText={setPassword}
